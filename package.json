@@ -8,6 +8,7 @@
     "debug": "node debug ./bin/www",
     "start": "NODE_ENV=production node ./bin/www",
     "start:production": "NODE_ENV=production node ./bin/www",
+    "build" "exit"
     "lint": "eslint ./app.js routes",
     "format": "eslint --fix . bin --ignore public node_modules",
     "pretest": "npm run lint",
